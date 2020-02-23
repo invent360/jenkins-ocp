@@ -1,4 +1,4 @@
-- apiVersion: v1
+  apiVersion: v1
   kind: BuildConfig 
   metadata:
     namespace: pipeline-tok-dev
@@ -23,6 +23,6 @@
     output:
       to:
         kind: ImageStreamTag
-        name: i360-jenkins:2.0.0
+        name: i360-jenkins:2.0
     triggers:
       - type: ImageChange
